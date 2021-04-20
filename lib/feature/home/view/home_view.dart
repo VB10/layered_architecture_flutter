@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:layers_flutter/feature/home/viewmodel/home_view_model.dart';
+
+import '../../../product/w%C4%B1dgets/button/user_checkout_button.dart';
+import '../viewmodel/home_view_model.dart';
 
 class HomeView extends StatelessWidget {
   final _viewModel = HomeViewModel();
@@ -9,6 +11,13 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: buildObserverLoading(),
+      ),
+      body: Column(
+        children: [
+          UserCheckoutButton(
+            onPressed: () {},
+          )
+        ],
       ),
     );
   }

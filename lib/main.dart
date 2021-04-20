@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import 'feature/home/view/home_view.dart';
 import 'product/manager/user_manager.dart';
 import 'product/theme/theme_manager.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       theme: context.watch<ThemeManager>().currentTheme,
-      home: Scaffold(),
+      home: HomeView(),
     );
   }
 }
