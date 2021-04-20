@@ -1,16 +1,10 @@
-# layers_flutter
+# Layered Architecture to Advanced Flutter Apps
 
-A new Flutter project.
+![A new Flutter project.](https://miro.medium.com/max/4800/0*5ewb7iPpWRDo1rvp)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Flutter layered architecture project.
 
-A few resources to get you started if this is your first Flutter project:
+## Detail
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Medium Post: Flutter Architecture Layered Apps](https://vbacik-10.medium.com/layered-architecture-to-advanced-flutter-apps-d8d4db2bd1c7#357c-deaea9cbf8a)
